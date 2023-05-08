@@ -52,7 +52,7 @@ const markdownTemplate = `
 
 ## History
 {{ range .History }}
-### {{ .Company }} - {{ .Title }} ({{ .Start }} - {{ .End }})
+### {{ .Company }}, {{ .Title }} ({{ .Start }} - {{ .End }})
 {{ range .Accomplishments }}
 - {{ . }}
 {{ end }}

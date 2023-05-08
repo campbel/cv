@@ -51,7 +51,7 @@ history:
   - "Kickstarted implementation of cloud environments on VMs as an alternative for users who couldn't run their workloads on Kubernetes."
   - "Led project and implementation of an in-house replacement for Ngrok to provide a secure tunnel to developer environments (open source implementation @ github.com/campbel/tiny-tunnel)"
   - "Created an AI support bot using OpenAI to provide self-service support to developers."
-- company: HP Inc.
+- company: HP Inc
   title: Cloud Architect
   start: July 2019
   end: June 2021
@@ -62,6 +62,15 @@ history:
   - Maintained developer autonomy by supporting integrations with their current tools and processes.
   - Led adoption of key development concepts such as continuous delivery, shift left testing/security, separation of deploy/release and more.
   - Oversaw development of EKS automated deployments and management, CI/CD strategy on GitHub Actions, Front-end portal for developer self-service built on Blazor (C#), integrated monitoring with Prometheus and more.
+- company: HP Inc
+  title: Staff Software Engineer
+  start: July 2015
+  end: July 2019
+  accomplishments:
+  - Technical lead for cloud components of "licensed" hardware features, accounting for 20 million devices and key technology for HP's instant ink program.
+  - Led the microservice transition for my lab of thirty plus developers, cut costs and improved time to deploy from 2 weeks to 1 hour.
+  - Pushed Docker adoption to speedup and simplify development & deployment and to improve portability of our applications.
+  - Managed multiple performance ready Docker clusters with high availability, self-healing and monitoring.
 - company: ChicWeather
   title: Founder and Chief Technologist
   start: January 2015
@@ -71,16 +80,7 @@ history:
   - "Implemented Android and iOS applications using React Native and a Golang backend utilizing Google Datastore and integrations with AccuWeather"
   - "Created a distributed web scrapper using Golang and Google Pub/Sub to automate partner catalog and product imports."
   - "Used machine learning to automatically categorize and match products to weather conditions."
-- company: HP Inc.
-  title: Staff Software Engineer
-  start: July 2015
-  end: July 2019
-  accomplishments:
-  - Technical lead for cloud components of "licensed" hardware features, accounting for 20 million devices and key technology for HP's instant ink program.
-  - Led the microservice transition for my lab of thirty plus developers, cut costs and improved time to deploy from 2 weeks to 1 hour.
-  - Pushed Docker adoption to speedup and simplify development & deployment and to improve portability of our applications.
-  - Managed multiple performance ready Docker clusters with high availability, self-healing and monitoring.
-- company: HP Inc.
+- company: HP Inc
   title: Senior Software Engineer
   start: August 2012
   end: June 2015
@@ -89,7 +89,7 @@ history:
   - Led the migration of a bespoke frontend web application to angular JS 1.x, improving performance and developer productivity.
   - Worked with HPs design team to implement a new user interface that improved usability and reduced support calls.
   - Implemented HPs front-end design components that could be re-used by other teams, saving duplicate development efforts.
-- company: HP Inc.
+- company: HP Inc
   title: Software Engineer
   start: July 2010
   end: August 2012
