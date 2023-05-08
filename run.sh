@@ -1,10 +1,11 @@
 #!/bin/bash
 
+# Variables - https://pandoc.org/chunkedhtml-demo/6.2-variables.html
+
 go run main.go work.yaml |
     pandoc -f markdown \
     --pdf-engine=pdflatex \
-    -V mainfont:"Helvetica Neue" \
-    -V fontsize:10pt \
-    -V geometry:"top=0.75in, bottom=0.75in, left=0.75in, right=0.75in" \
-    -V linkcolor:blue \
+    --variable fontsize:10pt \
+    --variable geometry:"top=0.75in, bottom=0.75in, left=0.75in, right=0.75in" \
+    --variable linkcolor:blue \
     -o cv.pdf - 

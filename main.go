@@ -3,6 +3,7 @@ package main
 import (
 	"html/template"
 	"os"
+	"strings"
 
 	"github.com/campbel/yoshi"
 	"gopkg.in/yaml.v3"
@@ -32,7 +33,11 @@ func main() {
 	})
 }
 
-var mdTemplate = template.Must(template.New("md").Parse(markdownTemplate))
+var mdTemplate = template.Must(template.New("md").Funcs(template.FuncMap{
+	"join": func(s []string) string {
+		return strings.Join(s, ", ")
+	},
+}).Parse(markdownTemplate))
 
 const markdownTemplate = `
 # {{ .Info.Name }}
@@ -42,13 +47,9 @@ const markdownTemplate = `
 
 ## Skills
 
-**Languages**: {{ range .Skills.Languages }}{{ . }}, {{ end }}
-
-**Tools**: {{ range .Skills.Tools }}{{ . }}, {{ end }}
-
-**Services**: {{ range .Skills.Services }}{{ . }}, {{ end }}
-
-**Cloud**: {{ range $key, $value := .Skills.Cloud }}{{ $key }} ({{ $value }}), {{ end }}
+{{ range .Skills }}
+**{{.Title}}**: {{ join .Values }}
+{{ end }}
 
 ## History
 {{ range .History }}
@@ -60,25 +61,25 @@ const markdownTemplate = `
 
 ## Publications
 {{ range .Publications }}
-### {{ if .Link }} [{{ .Title }}]({{ .Link }}) {{ else }} {{ .Title }} {{ end }} ({{ .Date}})
+- {{ if .Link }} [{{ .Title }}]({{ .Link }}) {{ else }} {{ .Title }} {{ end }} ({{ .Date}})
 {{ .Description }}
 {{ end }}
 
 ## Talks
 {{ range .Talks }}
-### {{ if .Link }} [{{ .Title }}]({{ .Link }}) {{ else }} {{ .Title }} {{ end }} ({{ .Date }})
+- {{ if .Link }} [{{ .Title }}]({{ .Link }}) {{ else }} {{ .Title }} {{ end }} ({{ .Date }})
 {{ .Description }}
 {{ end }}
 
 ## Community
 {{ range .Community }}
-### {{ if .Link }} [{{ .Title }}]({{ .Link }}) {{ else }} {{ .Title }} {{ end }} ({{ .Start }} - {{ .End }})
+- {{ if .Link }} [{{ .Title }}]({{ .Link }}) {{ else }} {{ .Title }} {{ end }} ({{ .Start }} - {{ .End }})
 {{ .Description }}
 {{ end }}
 
 ## Education
 {{ range .Education }}
-### {{ .School }} - {{ .Degree }}
+- {{ .School }} - {{ .Degree }}
 {{ end }}
 `
 
@@ -90,12 +91,9 @@ type CV struct {
 		Phone   string `yaml:"phone"`
 		Summary string `yaml:"summary"`
 	} `yaml:"info"`
-	Roles  []string `yaml:"roles"`
-	Skills struct {
-		Languages []string          `yaml:"languages"`
-		Tools     []string          `yaml:"tools"`
-		Services  []string          `yaml:"services"`
-		Cloud     map[string]string `yaml:"cloud"`
+	Skills []struct {
+		Title  string   `yaml:"title"`
+		Values []string `yaml:"values"`
 	} `yaml:"skills"`
 	History      []History      `yaml:"history"`
 	Publications []Publications `yaml:"publications"`

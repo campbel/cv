@@ -3,39 +3,45 @@ info:
   email: chrs.cmpbl@gmail.com
   github: github.com/campbel
   phone: 503-927-4466
-  summary: I am a software developer and leader with fourteen years of professional experience. I studied computer science at Oregon State University and have since developed my skills as a full stack web developer, DevOps engineer and cloud architect. I began my career working at HP where I built my reputation migrating applications to the cloud. I drove the creation of the HP print businesses cloud platform as the lead architect which supports their cloud connected devices, including enterprise and SMB printers. I then moved to Shopify where I worked as a team lead building cutting edge software tooling to accelerate software development. I’m a futurist and continual learner that loves having an impact while solving challenging problems.
+  summary: As a seasoned software developer and leader with expertise in full-stack web development, DevOps engineering, and cloud architecture, I am excited to bring my 14 years of professional experience to help drive innovation and growth.
 skills:
-  languages:
-  - Golang
-  - Javascript / Typescript
-  - Bash
-  - Python
-  - Ruby
-  - C#
-  - Java
-  - React / React Native
-  - AngularJS 1.x
-  - HTML
-  - CSS / SCSS
-  tools:
-  - Terraform
-  - Docker
-  - Systemd
-  - Kubernetes
-  services:
-  - MongoDB
-  - MySQL
-  - RabbitMQ
-  - Grafana
-  - Prometheus
-  - Redis
-  - Memcached
-  - Linkerd2
-  - Nginx
-  - Envoy
-  cloud:
-    AWS: "7 years of experience"
-    Google Cloud: "5 years of experience."
+  - title: Languages
+    values:
+    - Golang
+    - Javascript / Typescript
+    - Bash
+    - Python
+    - Ruby
+    - C#
+    - Java
+    - React / React Native
+    - AngularJS 1.x
+    - HTML
+    - CSS / SCSS
+  - title: Platforms
+    values:
+    - Kubernetes
+    - Docker
+    - Terraform
+    - Ubuntu
+    - Systemd
+    - Google COS
+  - title: Services
+    values:
+    - MongoDB
+    - MySQL
+    - RabbitMQ
+    - Grafana
+    - Prometheus
+    - Redis
+    - Memcached
+    - Linkerd2
+    - Nginx
+    - Envoy
+  - title: Cloud
+    values:
+    - AWS (7 years of experience)
+    - Google Cloud (5 years of experience)
 history:
 - company: Shopify
   title: Staff Software Engineer
@@ -43,59 +49,58 @@ history:
   end: May 2023
   description: "Team lead on the cloud environments team. Responsible for the infrastructure that runs Shopify's cloud development environments."
   accomplishments:
-  - "Implemented infrastructure to support the cloud development environments for Shopify's cloud platform on top of Google Kubernetes Engine (GKE) and GCP."
-  - "Supported thousands of developers and hundreds of projects adopting the cloud environments platform."
-  - "Led the migration from Ubuntu to Container-Optimized OS (COS) for the cloud environments platform."
-  - "Implemented application and SSH proxy for enhanced lifecycle features for user instances, allowing for 30% cost savings on infrastructure."
-  - "Developed a solution for Kubernetes resource defragmentation, resulting in 10% cost savings."
-  - "Kickstarted implementation of cloud environments on VMs as an alternative for users who couldn't run their workloads on Kubernetes."
-  - "Led project and implementation of an in-house replacement for Ngrok to provide a secure tunnel to developer environments (open source implementation @ github.com/campbel/tiny-tunnel)"
-  - "Created an AI support bot using OpenAI to provide self-service support to developers."
+  - Implemented infrastructure on GKE and GCP to support cloud development environments for Shopify's cloud platform, supporting thousands of developers and hundreds of projects, resulting in increased productivity and efficiency.
+  - Led the successful migration from Ubuntu to COS for the cloud environments platform, resulting in improved performance and reliability.
+  - Developed and implemented an application and SSH proxy for enhanced lifecycle features for user instances, resulting in a 30% cost savings on infrastructure.
+  - Developed a solution for Kubernetes resource defragmentation, resulting in a 10% cost savings.
+  - Kickstarted the implementation of cloud environments on VMs as an alternative for users who couldn't run their workloads on Kubernetes, resulting in increased flexibility and accessibility.
+  - Led the project and implementation of an in-house replacement for Ngrok to provide a secure tunnel to developer environments, resulting in improved security and control. The open-source implementation can be found at github.com/campbel/tiny-tunnel.
+  - Created an AI support bot using OpenAI to provide self-service support to developers, resulting in increased efficiency and improved user satisfaction.
 - company: HP Inc
   title: Cloud Architect
   start: July 2019
   end: June 2021
   accomplishments:
-  - Led the definition of a cloud development strategy for the entire HP Print software organization.
-  - Drove development of a container-based cloud platform that sped up innovation, time to market, and mean time to recovery. Platform scope included CI/CD, runtime environment, SaaS integrations (AWS, MongoDB, others..), security, monitoring and alerting.
-  - Reduced operational costs for projects by 30% from utilizing shared runtime infrastructure and reduced DevOps efforts.
-  - Maintained developer autonomy by supporting integrations with their current tools and processes.
-  - Led adoption of key development concepts such as continuous delivery, shift left testing/security, separation of deploy/release and more.
-  - Oversaw development of EKS automated deployments and management, CI/CD strategy on GitHub Actions, Front-end portal for developer self-service built on Blazor (C#), integrated monitoring with Prometheus and more.
+  - Led the definition of a cloud development strategy for the entire HP Print software organization, resulting in improved efficiency and alignment across teams.
+  - Drove development of a container-based cloud platform that sped up innovation, time to market, and mean time to recovery. Platform scope included CI/CD, runtime environment, SaaS integrations with AWS, MongoDB, and other providers, security, monitoring, and alerting, resulting in improved development and delivery capabilities for the organization.
+  - Reduced operational costs for projects by 30% by utilizing shared runtime infrastructure and reducing DevOps efforts, resulting in significant cost savings for the organization.
+  - Maintained developer autonomy by supporting integrations with their current tools and processes, resulting in increased developer satisfaction and productivity.
+  - Led adoption of key development concepts such as continuous delivery, shift left testing/security, separation of deploy/release, and more, resulting in improved development practices and increased efficiency.
+  - Oversaw the development of EKS automated deployments and management, CI/CD strategy on GitHub Actions, front-end portal for developer self-service built on Blazor (C#), integrated monitoring with Prometheus, and more, resulting in improved efficiency and reduced errors across the organization.
 - company: HP Inc
   title: Staff Software Engineer
   start: July 2015
   end: July 2019
   accomplishments:
-  - Technical lead for cloud components of "licensed" hardware features, accounting for 20 million devices and key technology for HP's instant ink program.
-  - Led the microservice transition for my lab of thirty plus developers, cut costs and improved time to deploy from 2 weeks to 1 hour.
-  - Pushed Docker adoption to speedup and simplify development & deployment and to improve portability of our applications.
-  - Managed multiple performance ready Docker clusters with high availability, self-healing and monitoring.
+  - Served as a full-stack feature developer for HP's device remote management platform, supporting more than 10 million devices through HP's managed print services business, resulting in improved reliability and availability for customers.
+  - Led the successful migration of a bespoke frontend web application to AngularJS 1.x, resulting in improved performance and developer productivity, as well as better maintainability of the codebase.
+  - Collaborated with HP's design team to implement a new user interface that improved usability and reduced support calls, improved customer satisfaction and reduced support costs for the organization.
+  - Implemented HP's front-end design components that could be reused by other teams, resulting in significant time and cost savings, as well as improved consistency and quality of the user interface across the organization.
 - company: ChicWeather
   title: Founder and Chief Technologist
   start: January 2015
   end: August 2017
   accomplishments:
-  - "A startup fashion / weather mobile app, partnering with fashion brands and influencers to drive ecommerce sales."
-  - "Implemented Android and iOS applications using React Native and a Golang backend utilizing Google Datastore and integrations with AccuWeather"
-  - "Created a distributed web scrapper using Golang and Google Pub/Sub to automate partner catalog and product imports."
-  - "Used machine learning to automatically categorize and match products to weather conditions."
+  - Co-founded a startup fashion / weather mobile app, partnering with fashion brands and influencers to drive e-commerce sales and provide personalized weather-based fashion recommendations.
+  - Implemented Android and iOS applications using React Native and a Golang backend utilizing Google Datastore and integrations with AccuWeather, resulting in a highly responsive and user-friendly mobile app that has received positive feedback from users and influencers.
+  - Created a distributed web scraper using Golang and Google Pub/Sub to automate partner catalog and product imports, resulting in a significant time and cost savings and enabling the app to scale more efficiently.
+  - Used machine learning to automatically categorize and match products to weather conditions, resulting in highly accurate weather-based product recommendations that have driven e-commerce sales and increased customer engagement.
 - company: HP Inc
   title: Senior Software Engineer
   start: August 2012
   end: June 2015
   accomplishments:
-  - Full stack feature developer for HP's device remote management platform, supporting more than 10 million devices through HPs managed print services business.
-  - Led the migration of a bespoke frontend web application to angular JS 1.x, improving performance and developer productivity.
-  - Worked with HPs design team to implement a new user interface that improved usability and reduced support calls.
-  - Implemented HPs front-end design components that could be re-used by other teams, saving duplicate development efforts.
+  - Spearheaded the development of new features for HP's device remote management platform, which supported over 10 million devices through HP's managed print services business.
+  - Successfully led the migration of a bespoke frontend web application to AngularJS 1.x, improving performance and productivity for developers.
+  - Collaborated with HP's design team to implement a new user interface, resulting in a more user-friendly experience and reduced support calls.
+  - Developed front-end design components that were reusable by other teams at HP, saving significant development time and effort.
 - company: HP Inc
   title: Software Engineer
   start: July 2010
   end: August 2012
   accomplishments:
   - Worked on HPs print firmware platform APIs for device configuration and management.
-  - Acted as memory management lead developer for the firmware platform, tracking memory usage and optimizing performance.
+  - Served as memory management lead developer for the firmware platform, tracking memory usage and optimizing performance.
 publications:
 - title: "Spin Infrastructure Adventures: Containers, Systemd, and CGroups"
   link: https://shopify.engineering/spin-infrastructure-adventures-containers-systemd-cgroups
@@ -109,7 +114,7 @@ talks:
   link: https://www.youtube.com/watch?v=-e_zQVPooA4&list=PLj6h78yzYM2Pi4GsjNNWkkEvntCLMTjEL
   date: "2021"
 - title: CNCF Community Meeting Boise - Linkerd2 Intro
-  description: Provided and overview and introduction to Linkerd2 the original CNCF ServiceMesh
+  description: An introduction to Linkerd2 the original CNCF ServiceMesh
   date: "2019"
 - title: DevOps Days Boise 2018 - Tips for Running Docker in Production
   description: Everything I've learned running containers in production for the past two years.
