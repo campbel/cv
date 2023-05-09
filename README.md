@@ -2,7 +2,7 @@
 # Chris Campbell
 chrs.cmpbl@gmail.com | 503-927-4466 | [github.com/campbel](https://github.com/campbel)
 
-As a seasoned software developer and leader with expertise in full-stack web development, DevOps engineering, and cloud architecture, I am excited to bring my 14 years of professional experience to help drive innovation and growth.
+As a seasoned software developer and leader with expertise in full-stack cloud development, DevOps engineering, and cloud architecture, I am excited to bring my 14 years of experience to help drive your companies innovation and growth.
 
 ## Skills
 
@@ -13,16 +13,19 @@ As a seasoned software developer and leader with expertise in full-stack web dev
 
 **Services**: MongoDB, MySQL, RabbitMQ, Grafana, Prometheus, Redis, Memcached, Linkerd2, Nginx, Envoy
 
-**Cloud**: AWS (7 years of experience), Google Cloud (5 years of experience)
+**AWS (7 years of experience)**: EKS, S3, IAM, RDS, ElastiCache, EC2, Route53, CloudFront, Secrets Manager, SQS/SNS, and more...
+
+**Google Cloud (5 years of experience)**: GKE, Cloud Run, Cloud Storage, Compute Engine, Cloud CDN, Cloud DNS, Memorystore, Cloud SQL, and more...
 
 
 ## History
 
 ### Shopify, Staff Software Engineer (July 2021 - May 2023)
+Lead on the Cloud Environments team. Responsible for the cloud infrastructure that runs Shopify&#39;s cloud development environments.
 
 - Implemented infrastructure on GKE and GCP to support cloud development environments for Shopify&#39;s cloud platform, supporting thousands of developers and hundreds of projects, resulting in increased productivity and efficiency.
 
-- Led the successful migration from Ubuntu to COS for the cloud environments platform, resulting in improved performance and reliability.
+- Led the successful migration from Ubuntu to COS nodes for GKE for the cloud environments platform, resulting in improved performance and reliability.
 
 - Developed and implemented an application and SSH proxy for enhanced lifecycle features for user instances, resulting in a 30% cost savings on infrastructure.
 
@@ -36,10 +39,11 @@ As a seasoned software developer and leader with expertise in full-stack web dev
 
 
 ### HP Inc, Cloud Architect (July 2019 - June 2021)
+Lead architect for the HP Print infrastructure cloud platform.
 
 - Led the definition of a cloud development strategy for the entire HP Print software organization, resulting in improved efficiency and alignment across teams.
 
-- Drove development of a container-based cloud platform that sped up innovation, time to market, and mean time to recovery. Platform scope included CI/CD, runtime environment, SaaS integrations with AWS, MongoDB, and other providers, security, monitoring, and alerting, resulting in improved development and delivery capabilities for the organization.
+- Drove development of a container-based cloud platform that sped up innovation, time to market, and mean time to recovery. Platform scope included CI/CD, Kubernetes runtime environment, SaaS integrations with AWS, MongoDB, and other providers, security, monitoring, and alerting, resulting in improved development and delivery capabilities for the organization.
 
 - Reduced operational costs for projects by 30% by utilizing shared runtime infrastructure and reducing DevOps efforts, resulting in significant cost savings for the organization.
 
@@ -52,42 +56,26 @@ As a seasoned software developer and leader with expertise in full-stack web dev
 
 ### HP Inc, Staff Software Engineer (July 2015 - July 2019)
 
+
 - Served as a full-stack feature developer for HP&#39;s device remote management platform, supporting more than 10 million devices through HP&#39;s managed print services business, resulting in improved reliability and availability for customers.
 
-- Led the successful migration of a bespoke frontend web application to AngularJS 1.x, resulting in improved performance and developer productivity, as well as better maintainability of the codebase.
+- Led the successful migration of a bespoke frontend web application to AngularJS 1.X, resulting in improved performance and developer productivity, as well as better maintainability of the codebase.
 
 - Collaborated with HP&#39;s design team to implement a new user interface that improved usability and reduced support calls, improved customer satisfaction and reduced support costs for the organization.
 
 - Implemented HP&#39;s front-end design components that could be reused by other teams, resulting in significant time and cost savings, as well as improved consistency and quality of the user interface across the organization.
 
 
-### ChicWeather, Founder and Chief Technologist (January 2015 - August 2017)
+### HP Inc, Software / Senior Software Engineer (August 2010 - June 2015)
 
-- Co-founded a startup fashion / weather mobile app, partnering with fashion brands and influencers to drive e-commerce sales and provide personalized weather-based fashion recommendations.
-
-- Implemented Android and iOS applications using React Native and a Golang backend utilizing Google Datastore and integrations with AccuWeather, resulting in a highly responsive and user-friendly mobile app that has received positive feedback from users and influencers.
-
-- Created a distributed web scraper using Golang and Google Pub/Sub to automate partner catalog and product imports, resulting in a significant time and cost savings and enabling the app to scale more efficiently.
-
-- Used machine learning to automatically categorize and match products to weather conditions, resulting in highly accurate weather-based product recommendations that have driven e-commerce sales and increased customer engagement.
-
-
-### HP Inc, Senior Software Engineer (August 2012 - June 2015)
 
 - Spearheaded the development of new features for HP&#39;s device remote management platform, which supported over 10 million devices through HP&#39;s managed print services business.
 
 - Successfully led the migration of a bespoke frontend web application to AngularJS 1.x, improving performance and productivity for developers.
 
-- Collaborated with HP&#39;s design team to implement a new user interface, resulting in a more user-friendly experience and reduced support calls.
+- Collaborated with HP&#39;s design team to implement a new web UI with html / css / angularjs, resulting in a more user-friendly experience and reduced support calls.
 
-- Developed front-end design components that were reusable by other teams at HP, saving significant development time and effort.
-
-
-### HP Inc, Software Engineer (July 2010 - August 2012)
-
-- Worked on HPs print firmware platform APIs for device configuration and management.
-
-- Served as memory management lead developer for the firmware platform, tracking memory usage and optimizing performance.
+- Developed front-end web components that were reusable by other teams at HP, saving significant development time and effort.
 
 
 
