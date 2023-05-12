@@ -13,9 +13,9 @@ Experienced software engineer with 14&#43; years of overall experience and 8&#43
 
 **Services**: MongoDB, MySQL, RabbitMQ, Grafana, Prometheus, Redis, Memcached, Linkerd2, Nginx, Envoy
 
-**AWS (7 years of experience)**: EKS, S3, IAM, RDS, ElastiCache, EC2, Route53, CloudFront, Secrets Manager, SQS/SNS, and more...
+**AWS (7 years of experience)**: EKS, S3, IAM, RDS, ElastiCache, EC2, Route53, CloudFront, Secrets Manager, SQS/SNS, and more.
 
-**Google Cloud (5 years of experience)**: GKE, Cloud Run, Cloud Storage, Compute Engine, Cloud CDN, Cloud DNS, Memorystore, Cloud SQL, and more...
+**Google Cloud (5 years of experience)**: GKE, Cloud Run, Cloud Storage, Compute Engine, Cloud CDN, Cloud DNS, Memorystore, Cloud SQL, and more.
 
 
 ## History
@@ -45,7 +45,7 @@ Lead architect for the HP Print infrastructure cloud platform.
 
 - Drove development of a container-based cloud platform that sped up innovation, time to market, and mean time to recovery. Platform scope included CI/CD, Kubernetes runtime environment, SaaS integrations with AWS, MongoDB, and other providers, security, monitoring, and alerting, resulting in improved development and delivery capabilities for the organization.
 
-- Reduced operational costs for projects by 30% by utilizing shared runtime infrastructure and reducing DevOps efforts, resulting in significant cost savings for the organization.
+- Reduced operational costs for projects by 30% by utilizing shared runtime infrastructure and reducing DevOps efforts.
 
 - Maintained developer autonomy by supporting integrations with their current tools and processes, resulting in increased developer satisfaction and productivity.
 
@@ -57,9 +57,9 @@ Lead architect for the HP Print infrastructure cloud platform.
 ### HP Inc, Staff Software Engineer (July 2015 - July 2019)
 
 
-- Served as a full-stack feature developer for HP&#39;s device remote management platform, supporting more than 10 million devices through HP&#39;s managed print services business, resulting in improved reliability and availability for customers.
+- Served as a full-stack feature developer for HP&#39;s remote device management platform, supporting more than 10 million devices through HP&#39;s managed print services business, resulting in improved reliability and availability for customers.
 
-- Led the successful migration of a bespoke frontend web application to AngularJS 1.X, resulting in improved performance and developer productivity, as well as better maintainability of the codebase.
+- Led the successful migration of a bespoke frontend web application to AngularJS 1.X, resulting in improved performance and developer productivity, as well as better codebase maintainability.
 
 - Collaborated with HP&#39;s design team to implement a new user interface that improved usability and reduced support calls, improved customer satisfaction and reduced support costs for the organization.
 
@@ -73,7 +73,7 @@ Lead architect for the HP Print infrastructure cloud platform.
 
 - Successfully led the migration of a bespoke frontend web application to AngularJS 1.x, improving performance and productivity for developers.
 
-- Collaborated with HP&#39;s design team to implement a new web UI with html / css / angularjs, resulting in a more user-friendly experience and reduced support calls.
+- Collaborated with HP&#39;s design team to implement a new web UI with HTML / CSS / AngularJS, resulting in a more user-friendly experience and reduced support calls.
 
 - Developed front-end web components that were reusable by other teams at HP, saving significant development time and effort.
 
@@ -109,7 +109,7 @@ How to utilize Docker as the runtime for your containerized CI/CD pipeline.
 The Linkerd Ambassador badge is a distinction awarded to those community members who are experts in their field and who demonstrate expertise, passion, engagement, and a commitment to sharing their Linkerd experience with the broader community. Linkerd Ambassadors are hand-picked by the Linkerd maintainers.
 
 -  CNCF ServiceMeshCon Program Committee Co-Chair  (2021 - 2023)
-A select committee of experts in the field of ServiceMesh that defines the themes and perform selection of talks for the ServiceMeshCon conference.
+A select committee of experts in the field of ServiceMesh that defines the themes and select talks to be presented at the ServiceMeshCon conference.
 
 
 ## Education

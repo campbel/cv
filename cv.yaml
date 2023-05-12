@@ -50,7 +50,7 @@ skills:
     - CloudFront
     - Secrets Manager
     - SQS/SNS 
-    - and more...
+    - and more.
   - title: Google Cloud (5 years of experience)
     values:
     - GKE
@@ -61,7 +61,7 @@ skills:
     - Cloud DNS
     - Memorystore
     - Cloud SQL
-    - and more...
+    - and more.
 history:
 - company: Shopify
   title: Staff Software Engineer
@@ -84,7 +84,7 @@ history:
   accomplishments:
   - Led the definition of a cloud development strategy for the entire HP Print software organization, resulting in improved efficiency and alignment across teams.
   - Drove development of a container-based cloud platform that sped up innovation, time to market, and mean time to recovery. Platform scope included CI/CD, Kubernetes runtime environment, SaaS integrations with AWS, MongoDB, and other providers, security, monitoring, and alerting, resulting in improved development and delivery capabilities for the organization.
-  - Reduced operational costs for projects by 30% by utilizing shared runtime infrastructure and reducing DevOps efforts, resulting in significant cost savings for the organization.
+  - Reduced operational costs for projects by 30% by utilizing shared runtime infrastructure and reducing DevOps efforts.
   - Maintained developer autonomy by supporting integrations with their current tools and processes, resulting in increased developer satisfaction and productivity.
   - Led adoption of key development concepts such as continuous delivery, shift left testing/security, separation of deploy/release, and more, resulting in improved development practices and increased efficiency.
   - Oversaw the development of EKS automated deployments and management, CI/CD strategy on GitHub Actions, front-end portal for developer self-service built on Blazor (C#), integrated monitoring with Prometheus, and more, resulting in improved efficiency and reduced errors across the organization.
@@ -93,8 +93,8 @@ history:
   start: July 2015
   end: July 2019
   accomplishments:
-  - Served as a full-stack feature developer for HP's device remote management platform, supporting more than 10 million devices through HP's managed print services business, resulting in improved reliability and availability for customers.
-  - Led the successful migration of a bespoke frontend web application to AngularJS 1.X, resulting in improved performance and developer productivity, as well as better maintainability of the codebase.
+  - Served as a full-stack feature developer for HP's remote device management platform, supporting more than 10 million devices through HP's managed print services business, resulting in improved reliability and availability for customers.
+  - Led the successful migration of a bespoke frontend web application to AngularJS 1.X, resulting in improved performance and developer productivity, as well as better codebase maintainability.
   - Collaborated with HP's design team to implement a new user interface that improved usability and reduced support calls, improved customer satisfaction and reduced support costs for the organization.
   - Implemented HP's front-end design components that could be reused by other teams, resulting in significant time and cost savings, as well as improved consistency and quality of the user interface across the organization.
 # - company: ChicWeather
@@ -113,7 +113,7 @@ history:
   accomplishments:
   - Spearheaded the development of new features for HP's device remote management platform, which supported over 10 million devices through HP's managed print services business.
   - Successfully led the migration of a bespoke frontend web application to AngularJS 1.x, improving performance and productivity for developers.
-  - Collaborated with HP's design team to implement a new web UI with html / css / angularjs, resulting in a more user-friendly experience and reduced support calls.
+  - Collaborated with HP's design team to implement a new web UI with HTML / CSS / AngularJS, resulting in a more user-friendly experience and reduced support calls.
   - Developed front-end web components that were reusable by other teams at HP, saving significant development time and effort.
 publications:
 - title: "Spin Infrastructure Adventures: Containers, Systemd, and CGroups"
@@ -143,7 +143,7 @@ community:
   start: "2021"
   end: "Present"
 - title: CNCF ServiceMeshCon Program Committee Co-Chair
-  description: A select committee of experts in the field of ServiceMesh that defines the themes and perform selection of talks for the ServiceMeshCon conference.
+  description: A select committee of experts in the field of ServiceMesh that defines the themes and select talks to be presented at the ServiceMeshCon conference.
   start: "2021"
   end: "2023"
 education:
