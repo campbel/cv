@@ -2,7 +2,7 @@
 # Chris Campbell
 chrs.cmpbl@gmail.com | 503-927-4466 | [github.com/campbel](https://github.com/campbel)
 
-As a seasoned software developer and leader with expertise in full-stack cloud development, DevOps engineering, and cloud architecture, I am excited to bring my 14 years of experience to help drive your companies innovation and growth.
+Experienced software engineer with 14&#43; years of overall experience and 8&#43; years of expertise in cloud infrastructure. Skilled in leading teams through transformations and adopting cloud native technologies to optimize software development. Committed to improving the developer experience and streamlining the building process for seamless, frictionless delivery.
 
 ## Skills
 
@@ -38,7 +38,7 @@ Lead on the Cloud Environments team. Responsible for the cloud infrastructure th
 - Created an AI support bot using OpenAI to provide self-service support to developers, resulting in increased efficiency and improved user satisfaction.
 
 
-### HP Inc, Cloud Architect (July 2019 - June 2021)
+### HP Inc, Master Cloud Architect (July 2019 - June 2021)
 Lead architect for the HP Print infrastructure cloud platform.
 
 - Led the definition of a cloud development strategy for the entire HP Print software organization, resulting in improved efficiency and alignment across teams.

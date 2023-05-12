@@ -2,7 +2,7 @@
 
 # Variables - https://pandoc.org/chunkedhtml-demo/6.2-variables.html
 
-go run main.go cv.yaml > README.md
+go run main.go cv cv.yaml > README.md
 pandoc -f markdown \
     --pdf-engine=pdflatex \
     --variable fontsize:10pt \

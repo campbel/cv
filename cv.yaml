@@ -3,7 +3,7 @@ info:
   email: chrs.cmpbl@gmail.com
   github: github.com/campbel
   phone: 503-927-4466
-  summary: As a seasoned software developer and leader with expertise in full-stack cloud development, DevOps engineering, and cloud architecture, I am excited to bring my 14 years of experience to help drive your companies innovation and growth.
+  summary: Experienced software engineer with 14+ years of overall experience and 8+ years of expertise in cloud infrastructure. Skilled in leading teams through transformations and adopting cloud native technologies to optimize software development. Committed to improving the developer experience and streamlining the building process for seamless, frictionless delivery.
 skills:
   - title: Languages
     values:
@@ -77,7 +77,7 @@ history:
   - Led the project and implementation of an in-house replacement for Ngrok to provide a secure tunnel to developer environments, resulting in improved security and control. The open-source implementation can be found at github.com/campbel/tiny-tunnel.
   - Created an AI support bot using OpenAI to provide self-service support to developers, resulting in increased efficiency and improved user satisfaction.
 - company: HP Inc
-  title: Cloud Architect
+  title: Master Cloud Architect
   start: July 2019
   end: June 2021
   description: "Lead architect for the HP Print infrastructure cloud platform."
